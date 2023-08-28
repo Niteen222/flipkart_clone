@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flipcart.css">
+    <title>Flipkart Clone</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+
+
+            <img class="flip"
+                src="https://res.cloudinary.com/admitad-gmbh/image/upload/v1645289711/fwgb4vfb9en87kht1zzb.jpg"
+                alt="flip">
+                <div class="input">
+                    <input type="text" placeholder="   Search for Products , Brands and More " class="top"> 
+                    <i class="fa-solid fa-magnifying-glass icon"></i>
+                </div>
+
+            <span class="gift cart-item">
+                <i class="fa-solid fa-gift"></i>
+                <a class="bec" href="#">Become a Seller</a>
+            </span>
+            <div class="header-item">
+                
+            
+            <img src="https://png.pngtree.com/png-vector/20191110/ourmid/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg"
+                alt="pro" class="pro">
+            <div class="select">
+                <span href="#">Sign in</span>
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxNCAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfZF80OTc0Xzc1OTY5KSI+CjxwYXRoIGQ9Ik0zIDJMNyA2TDExIDIiIHN0cm9rZT0iIzExMTExMiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2RfNDk3NF83NTk2OSIgeD0iMC4yNSIgeT0iMC4yNSIgd2lkdGg9IjEzLjUiIGhlaWdodD0iOS44MTI1IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjEiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4xNiAwIi8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZWN0MV9kcm9wU2hhZG93XzQ5NzRfNzU5NjkiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3dfNDk3NF83NTk2OSIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPC9kZWZzPgo8L3N2Zz4K"
+                    alt="">
+                <div class="profile">
+                    <div class="new">
+                        <p>
+                            New Customer
+                        </p>
+                    </div>
+                    <hr>
+                    <ul class="list">
+                        <div class="zone">
+                            <i class="fa-solid fa-user" style="color: black;"></i>
+                            <li> Profile</li>
+                        </div>
+                        <div class="zone">
+                            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkplus-4ff29a.svg"
+                                alt="" width="18px">
+
+                            <li>
+                                Flipcart Plus Zone</li>
+                        </div>
+                        <div class="zone">
+                            <span>
+                                <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                            </span>
+                            <li>
+                                Orders</li>
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+
+            <img src="data:image/png;base64,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"
+            alt="" class="cart">
+            <a class="ca" href="#">My Cart</a>
+        </div>
+        </div>
+    </div>
+    <main class="main">
+
+        <div class="nd">
+            <div class="groc">
+                <img class="picg" src="https://etimg.etb2bimg.com/photo/82427268.cms" alt="">
+                <strong>
+                    <p class="str">Grocery</p>
+                </strong>
+            </div>
+            <div class="ph">
+                <img src="https://drop.ndtv.com/albums/GADGETS/mobiles_launched_in_january_2016/vivo_y51l.jpg?downsize=640:*"
+                    alt="ph" class="pho">
+                <strong>
+                    <p class="str">Mobiles</p>
+                </strong>
+            </div>
+            <div class="ph">
+                <img src="https://www.pngmart.com/files/22/Men-Fashion-PNG.png" alt="ph" class="pho">
+                <strong>
+                    <p class="str">Fashions</p>
+                </strong>
+            </div>
+            <div class="ph">
+                <img src="https://www.pngall.com/wp-content/uploads/1/Electronic.png" alt="ph" class="pho">
+                <strong>
+                    <p class="str">Electronics</p>
+                </strong>
+            </div>
+            <div class="ph">
+                <img src="https://www.pngall.com/wp-content/uploads/11/Wooden-Furniture-Chair-PNG-Photo.png" alt="ph"
+                    class="pho">
+                <strong>
+                    <p class="str">Furnitures</p>
+                </strong>
+            </div>
+            <div class="ph">
+                <img src="https://www.abelectronics.in/wp-content/uploads/2023/07/electronics-removebg-preview.png"
+                    alt="ph" class="pho">
+                <strong>
+                    <p class="str">Appliances</p>
+                </strong>
+            </div>
+            <div class="ph">
+                <img src="https://t3.ftcdn.net/jpg/01/73/01/74/360_F_173017473_xRG5TrDyf7elY5PPC7Xt89Ar3imtHwF4.jpg"
+                    alt="ph" class="pho">
+                <strong>
+                    <p class="str">Travells</p>
+                </strong>
+            </div>
+            <div class="ph">
+                <img src="https://img.freepik.com/premium-photo/set-different-makeup-objects_144962-8846.jpg" alt="ph"
+                    class="pho">
+                <strong>
+                    <p class="str">Beauty</p>
+                </strong>
+            </div>
+
+            <div class="ph">
+                <img src="https://img.freepik.com/premium-photo/colorful-toys-collection-desk_488220-3796.jpg?w=2000"
+                    alt="ph" class="pho">
+                <strong>
+                    <p class="str">Toys</p>
+                </strong>
+            </div>
+
+
+        </div>
+
+        <div class="aero">
+            <img class="ae" src="https://rukminim2.flixcart.com/fk-p-flap/844/140/image/1e4d95bb4aed0afe.jpg?q=50"
+                alt="">
+        </div>
+        <div class="mn">
+            <span class="bes">Best of Electronics</span>
+            <div class="ra">
+                <div class="moni">
+                    <img src="https://www.pngmart.com/files/6/Monitor-Background-PNG.png" alt="ph" class="phont">
+                    <p class="mon">Monitors</p>
+                    <strong>
+                        <p class="mon">From ₹6999</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://pngimg.com/d/monitor_PNG101653.png" alt="ph" class="phont">
+                    <p class="mon">Monitors</p>
+                    <strong>
+                        <p class="mon">From ₹7599</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://dlcdnwebimgs.asus.com/gain/CD837AB2-D068-48DB-840C-C50BFF36478A" alt="ph"
+                        class="phont">
+                    <p class="mon">Monitors</p>
+                    <strong>
+                        <p class="mon">From ₹8599</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/trimmer/s/t/s/1-4-mm-hair-trimer-for-men-women-both-use-stylish-profesional-original-imagg26v9cg4wn4b.jpeg?q=20"
+                        alt="ph" class="phont">
+                    <p class="mon">Best of Trimmers</p>
+                    <strong>
+                        <p class="mon">From ₹499</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://www.themobileindian.com/wp-content/uploads/2021/08/Syska-P1037B-Powerbank.png"
+                        alt="ph" class="phont">
+                    <p class="mon">Power Banks</p>
+                    <strong>
+                        <p class="mon">Shop Now</p>
+                    </strong>
+                </div>
+
+
+                <div class="moni">
+                    <img src="https://cdn.pixabay.com/photo/2013/07/12/15/23/laser-printer-149815_640.png" alt="ph"
+                        class="phont">
+                    <p class="mon">Printers</p>
+                    <strong>
+                        <p class="mon">From ₹3399</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://www.dealsmagnet.com/images/Probus-X690BL-Dual-Driver-Wireless-Bluetooth-Earph-o-13yMKlQc.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Earphones</p>
+                    <strong>
+                        <p class="mon">From ₹599</p>
+                    </strong>
+                </div>
+                <div class="moni">
+                    <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1632901354/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/235910_mcovvp.png?tr=w-600"
+                        alt="ph" class="phont">
+                    <p class="mon">Earbuds</p>
+                    <strong>
+                        <p class="mon">From ₹999</p>
+                    </strong>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mn">
+            <span class="bes">Stationary</span>
+            <div class="ra">
+                <div class="moni">
+                    <img src="https://detec.in/cdn/shop/products/42_cc4ad401-fddb-4731-b8ad-8e15cebe300e.jpg?v=1625744982"
+                        alt="ph" class="phont">
+                    <p class="mon">Pens</p>
+                    <strong>
+                        <p class="mon">From ₹9</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://www.freepnglogos.com/uploads/notebook-png/notebook-clipart-png-clipground-24.png"
+                        alt="ph" class="phont">
+                    <p class="mon">Notebooks</p>
+                    <strong>
+                        <p class="mon">From ₹79</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://media.istockphoto.com/id/179036329/photo/photo-of-one-pencil-sharpener.jpg?s=612x612&w=0&k=20&c=Yrhg9fhjy2AGrIex5BJPCMKIVaN40Kq5-Yl80iXUJBY="
+                        alt="ph" class="phont">
+                    <p class="mon">Shopner</p>
+                    <strong>
+                        <p class="mon">From ₹9</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-isolated-white-background-ruler-scissors-pencil-pens-eraser-with-space-insert-promotional-text_72932-3019.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Pencils</p>
+                    <strong>
+                        <p class="mon">From ₹9</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://pngimg.com/d/eraser_PNG55.png" alt="ph" class="phont">
+                    <p class="mon">Eraser</p>
+                    <strong>
+                        <p class="mon">From ₹5</p>
+                    </strong>
+                </div>
+
+
+                <div class="moni">
+                    <img src="https://www.carrydor.com/image/cache/catalog/Stationery/natraj-scale-15-cm-and-30-cm-1-unit-904x904.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Scales</p>
+                    <strong>
+                        <p class="mon">From ₹9</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://m.media-amazon.com/images/I/51lkEM8wPzL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_PIStarRatingTHREEANDHALF%2CBottomLeft%2C360%2C-6_SR600%2C315_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Geomatric Tools</p>
+                    <strong>
+                        <p class="mon">From ₹49</p>
+                    </strong>
+                </div>
+                <div class="moni">
+                    <img src="https://rukminim2.flixcart.com/image/850/1000/kkec4280/marker-highlighter/y/l/e/whiteboard-marker-hd-refillable-black-marker-rorito-original-imafzrb5tazghwc4.jpeg?q=20"
+                        alt="ph" class="phont">
+                    <p class="mon">Marker</p>
+                    <strong>
+                        <p class="mon">From ₹19</p>
+                    </strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="aero">
+            <img class="ae" src="img101.webp" alt="">
+        </div>
+
+
+        <div class="mn">
+            <span class="bes">Cloths</span>
+            <div class="ra">
+                <div class="moni">
+                    <img src="https://freepngimg.com/save/153093-denim-pic-jeans-free-clipart-hd/793x548" alt="ph"
+                        class="phont">
+                    <p class="mon">Denim Jeans</p>
+                    <strong>
+                        <p class="mon">From ₹1499</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://i.pinimg.com/originals/bd/ef/cb/bdefcbc72735f64db17f3250b1e64245.png" alt="ph"
+                        class="phont">
+                    <p class="mon">T Shirt</p>
+                    <strong>
+                        <p class="mon">From ₹999</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="ph" class="phont">
+                    <p class="mon">Shirts</p>
+                    <strong>
+                        <p class="mon">From ₹699</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://contents.mediadecathlon.com/p2108788/c625bd5aeda80a95c38b2f0bc04b7028/p2108788.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Jackets</p>
+                    <strong>
+                        <p class="mon">From ₹1999</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="ph" class="phont">
+                    <p class="mon">Hanky</p>
+                    <strong>
+                        <p class="mon">From ₹99</p>
+                    </strong>
+                </div>
+
+
+                <div class="moni">
+                    <img src="https://www.softspun.in/cdn/shop/products/baby-purple_3_a10889c9-d550-4432-85ee-f385efb9cab4.jpg?v=1677646196"
+                        alt="ph" class="phont">
+                    <p class="mon">Towels</p>
+                    <strong>
+                        <p class="mon">From ₹299</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://png.pngitem.com/pimgs/s/131-1316600_cliparts-vectors-for-free-sock-hd-png-download.png"
+                        alt="ph" class="phont">
+                    <p class="mon">Socs</p>
+                    <strong>
+                        <p class="mon">From ₹399</p>
+                    </strong>
+                </div>
+                <div class="moni">
+                    <img src="https://img1.exportersindia.com/product_images/bc-full/2022/8/10613410/men-lower-1661833743-6513747.jpeg"
+                        alt="ph" class="phont">
+                    <p class="mon">Lower</p>
+                    <strong>
+                        <p class="mon">From ₹399</p>
+                    </strong>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="mn">
+            <span class="bes">Shoes,Sandals,Slippers</span>
+            <div class="ra">
+                <div class="moni">
+                    <img src="https://5.imimg.com/data5/TK/RH/MY-24308192/women-low-heels-sandals.jpg" alt="ph"
+                        class="phont">
+                    <p class="mon">Sandals</p>
+                    <strong>
+                        <p class="mon">From ₹899</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://atlas-content-cdn.pixelsquid.com/assets_v2/10/1008029764088239536/previews/G03-200x200.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Shoes</p>
+                    <strong>
+                        <p class="mon">From ₹899</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://thumbs.dreamstime.com/b/gray-sneakers-white-background-gray-casual-sports-shoes-men-s-sneakers-sports-fabric-summer-shoes-gray-sneakers-275163406.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Shoes</p>
+                    <strong>
+                        <p class="mon">From ₹699</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://m.media-amazon.com/images/I/31FzDyBVVYL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Slippers</p>
+                    <strong>
+                        <p class="mon">From ₹149</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://m.media-amazon.com/images/I/61xB2soOPKL._UL1500_.jpg" alt="ph" class="phont">
+                    <p class="mon">Slippers</p>
+                    <strong>
+                        <p class="mon">From ₹295</p>
+                    </strong>
+                </div>
+
+
+                <div class="moni">
+                    <img src="https://mnjshoes.com/wp-content/uploads/2019/05/men-black-derby-formal-shoes-31.png"
+                        alt="ph" class="phont">
+                    <p class="mon">Official Shoes</p>
+                    <strong>
+                        <p class="mon">From ₹1199</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://i.pinimg.com/originals/51/2b/4b/512b4b870390fac58da5206e88d228d6.png" alt="ph"
+                        class="phont">
+                    <p class="mon">Shoes</p>
+                    <strong>
+                        <p class="mon">From ₹2449</p>
+                    </strong>
+                </div>
+                <div class="moni">
+                    <img src="https://parade.com/.image/t_share/MTkwNTgxMDI4ODk0NTQ5MTE3/dolce-vita-target-dupe-spring-sandal.png"
+                        alt="ph" class="phont">
+                    <p class="mon">Sandals</p>
+                    <strong>
+                        <p class="mon">From ₹699</p>
+                    </strong>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="aero">
+            <img class="ae" src="img102.webp" alt="">
+        </div>
+
+
+
+
+        <div class="mn">
+            <span class="bes">Mobiles Covers,flip Covers & Screnguards</span>
+            <div class="ra">
+                <div class="moni">
+                    <img src="https://images-static.nykaa.com/media/catalog/product/2/a/2ab263fmcover002-lhh-13_1.jpg?tr=w-500,pr-true"
+                        alt="ph" class="phont">
+                    <p class="mon">Backcovers</p>
+                    <strong>
+                        <p class="mon">From ₹199</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://onezeros.in/cdn/shop/products/translucent-frosted-smoke-mobile-cover-for-redmi-8-camera-protection-phone-case-mobiles-accessories-34911253004486.jpg?v=1682082714"
+                        alt="ph" class="phont">
+                    <p class="mon">Backcovers</p>
+                    <strong>
+                        <p class="mon">From ₹99</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://5.imimg.com/data5/ECOM/Default/2022/11/GG/XC/XT/142053378/crown-name-02-golden-mobile-plates.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Golden Covers</p>
+                    <strong>
+                        <p class="mon">From ₹299</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://m.media-amazon.com/images/I/411CKNKchoL._AC_UF1000,1000_QL80_.jpg" alt="ph"
+                        class="phont">
+                    <p class="mon">Simple Covers</p>
+                    <strong>
+                        <p class="mon">From ₹149</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://m.media-amazon.com/images/I/71KCe34JBuL.jpg" alt="ph" class="phont">
+                    <p class="mon">ScreenGuard</p>
+                    <strong>
+                        <p class="mon">From ₹95</p>
+                    </strong>
+                </div>
+
+
+                <div class="moni">
+                    <img src="https://img3.exportersindia.com/product_images/bc-full/2019/7/4874199/mobile-screen-guard-1563624944-5008074.jpeg"
+                        alt="ph" class="phont">
+                    <p class="mon">Screenguard</p>
+                    <strong>
+                        <p class="mon">From ₹99</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://5.imimg.com/data5/CB/XQ/MY-17251565/mobile-flip-cover.jpg" alt="ph" class="phont">
+                    <p class="mon">Flip-Covers</p>
+                    <strong>
+                        <p class="mon">From ₹249</p>
+                    </strong>
+                </div>
+                <div class="moni">
+                    <img src="https://m.media-amazon.com/images/I/51c3i7+tieL._AC_UF1000,1000_QL80_.jpg" alt="ph"
+                        class="phont">
+                    <p class="mon">Flip-Covers</p>
+                    <strong>
+                        <p class="mon">From ₹299</p>
+                    </strong>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mn">
+            <span class="bes">Hand-Bags & Trolley-Bags</span>
+            <div class="ra">
+                <div class="moni">
+                    <img src="https://img.tatacliq.com/images/i8/437Wx649H/MP000000010516362_437Wx649H_202208112003381.jpeg"
+                        alt="ph" class="phont">
+                    <p class="mon">Hand-Bag</p>
+                    <strong>
+                        <p class="mon">From ₹499</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://rukminim2.flixcart.com/image/450/500/kqjtd3k0/hand-messenger-bag/i/n/l/orignal-sea-green-combo-messenger-bag-1-orignal-sea-green-combo-original-imag4j98pswu6zqe.jpeg?q=90&crop=false"
+                        alt="ph" class="phont">
+                    <p class="mon">Women-Bags</p>
+                    <strong>
+                        <p class="mon">From ₹799</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://rukminim2.flixcart.com/image/850/1000/l0tweq80/bag/u/v/e/travel-bag-school-bag-for-kids-college-bags-4th-class-to-10th-original-imagcgfggmbr9rvv.jpeg?q=90"
+                        alt="ph" class="phont">
+                    <p class="mon">School-Bags</p>
+                    <strong>
+                        <p class="mon">From ₹299</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://di2ponv0v5otw.cloudfront.net/posts/2023/05/31/64775603f51a0f9d16f1482b/m_6477575717e49c58894c5e2f.jpeg"
+                        alt="ph" class="phont">
+                    <p class="mon">School-Bags</p>
+                    <strong>
+                        <p class="mon">From ₹449</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://m.media-amazon.com/images/I/610d7vqZGuL._AC_UY1100_.jpg" alt="ph" class="phont">
+                    <p class="mon">Trolley-Bags</p>
+                    <strong>
+                        <p class="mon">From ₹3595</p>
+                    </strong>
+                </div>
+
+
+                <div class="moni">
+                    <img src="https://5.imimg.com/data5/WV/CJ/VX/SELLER-76703840/5-piece-travel-trolley-bag-set.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Trolley-Bags</p>
+                    <strong>
+                        <p class="mon">From ₹3999</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://rukminim1.flixcart.com/image/850/650/l4fxh8w0/duffel-bag/0/z/d/hand-duffel-bag-trolley-bags-travel-bags-tourist-bags-suitcase-original-imagfckdknhpzhmh.jpeg?q=90"
+                        alt="ph" class="phont">
+                    <p class="mon">Duffle-Bags</p>
+                    <strong>
+                        <p class="mon">From ₹849</p>
+                    </strong>
+                </div>
+                <div class="moni">
+                    <img src="https://www.jiomart.com/images/product/original/rvrw4jicbw/anybuy-purple-polyester-travel-duffle-bags-with-trolley-luggage-2-wheels-79-l-product-images-orvrw4jicbw-p597751611-0-202301211321.jpg?im=Resize=(1000,1000)"
+                        alt="ph" class="phont">
+                    <p class="mon">Duffle-Bags</p>
+                    <strong>
+                        <p class="mon">From ₹299</p>
+                    </strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="aero">
+            <img class="ae" src="img104.webp" alt="">
+        </div>
+
+
+        <div class="mn">
+            <span class="bes">Womens Cloths</span>
+            <div class="ra">
+                <div class="moni">
+                    <img src="https://5.imimg.com/data5/ZY/SW/VU/ANDROID-89787775/screenshot-20190715-114639-01-jpg-500x500.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Slit-Cloth</p>
+                    <strong>
+                        <p class="mon">From ₹1499</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://m.media-amazon.com/images/I/81rY80E+kcL._AC_UY1100_.jpg" alt="ph" class="phont">
+                    <p class="mon">Latest-Shoot</p>
+                    <strong>
+                        <p class="mon">From ₹1299</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://static.fibre2fashion.com/MemberResources/LeadResources/1/2018/8/Seller/18151819/Images/18151819_0_stylish-ladies-dress.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Simple-Shoot</p>
+                    <strong>
+                        <p class="mon">From ₹699</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://images.meesho.com/images/products/19943830/53f0a_512.webp" alt="ph" class="phont">
+                    <p class="mon">Kurti</p>
+                    <strong>
+                        <p class="mon">From ₹849</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://www.sinina.com/images/detailed/8/3265050007.webp" alt="ph" class="phont">
+                    <p class="mon">Party-Wear</p>
+                    <strong>
+                        <p class="mon">From ₹595</p>
+                    </strong>
+                </div>
+
+
+                <div class="moni">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2021/1/SC/KJ/XJ/304280/-dsc0597-a-500x500.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Printed-Piece</p>
+                    <strong>
+                        <p class="mon">From ₹799</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2021/2/SI/BT/YQ/304280/new-product-500x500.jpeg"
+                        alt="ph" class="phont">
+                    <p class="mon">Printed-Peice</p>
+                    <strong>
+                        <p class="mon">From ₹549</p>
+                    </strong>
+                </div>
+                <div class="moni">
+                    <img src="https://bizknow.in/AmbikaKidsWear/images/WOMENS/womens-wear-ambikakidswear-bizknow.in1.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Kids-Wear</p>
+                    <strong>
+                        <p class="mon">From ₹699</p>
+                    </strong>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="mn">
+            <span class="bes">Earrphones & Headphones</span>
+            <div class="ra">
+                <div class="moni">
+                    <img src="https://www.boat-lifestyle.com/cdn/shop/products/51laZQDYtUL._SX679_-PhotoRoom.png-PhotoRoom_679x.png?v=1679334918"
+                        alt="ph" class="phont">
+                    <p class="mon">Wireless-Earphone</p>
+                    <strong>
+                        <p class="mon">From ₹799</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://www.soundguys.com/wp-content/uploads/2022/08/Sennheiser-Momentum-4-Wireless-product-image-scaled.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Latest-Headphone</p>
+                    <strong>
+                        <p class="mon">From ₹699</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://images.meesho.com/images/products/150927409/hyt3n_512.webp" alt="ph"
+                        class="phont">
+                    <p class="mon">Wireless-Earphone</p>
+                    <strong>
+                        <p class="mon">From ₹999</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://www.jiomart.com/images/product/original/491570855/jbl-t50hi-in-ear-wired-headphone-with-noise-isolation-mic-blue-digital-o491570855-p590909081-1-202301031905.jpeg?im=Resize=(1000,1000)"
+                        alt="ph" class="phont">
+                    <p class="mon">Wired-Earphone</p>
+                    <strong>
+                        <p class="mon">From ₹849</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://d2xamzlzrdbdbn.cloudfront.net/products/e7dcda63-3041-43ff-bbab-4f7be655ae0922230728_416x416.jpg"
+                        alt="ph" class="phont">
+                    <p class="mon">Wireless-Earphone</p>
+                    <strong>
+                        <p class="mon">From ₹895</p>
+                    </strong>
+                </div>
+
+
+                <div class="moni">
+                    <img src="https://cdn.shopify.com/s/files/1/2426/8493/products/40ccb9bd-2b10-468e-b66c-bb3665beaf0f.jpg?v=1681699159"
+                        alt="ph" class="phont">
+                    <p class="mon">Headphone</p>
+                    <strong>
+                        <p class="mon">From ₹899</p>
+                    </strong>
+                </div>
+
+                <div class="moni">
+                    <img src="https://helios-i.mashable.com/imagery/roundup-products/06ytg7aLJeyFu4aNlXdm4L0/product-image.fill.size_1200x900.v1642716307.png"
+                        alt="ph" class="phont">
+                    <p class="mon">Wired-Headphone</p>
+                    <strong>
+                        <p class="mon">From ₹699</p>
+                    </strong>
+                </div>
+                <div class="moni">
+                    <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/headphone/o/s/m/v-30-premium-quality-wireless-deep-powerful-sound-neckband-with-original-imagmbkhqmanhb3z.jpeg?q=20"
+                        alt="ph" class="phont">
+                    <p class="mon">Earphone</p>
+                    <strong>
+                        <p class="mon">From ₹699</p>
+                    </strong>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="get">
+            <div class="footer-item">
+                <h3 class="to1">About</h3>
+                <div class="text">
+                    <a href="#">Contact Us</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Career</a>
+                    <a href="#">Flipkart Stories</a>
+                    <a href="#">Press</a>
+                    <a href="#">Flipkart Wholesale</a>
+                    <a href="#">Corporate Information</a>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3 class="to2">Help</h3>
+                <div class="text">
+                    <a href="#">Payment</a>
+                    <a href="#">Shipping </a>
+                    <a href="#">Cancellation & Returns</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Report Infringement</a>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3 class="to3">Consumer Policy</h3>
+                <div class="text">
+                    <a href="#">Cancellation & Returns</a>
+                    <a href="#">Terms Of Use</a>
+                    <a href="#">Security</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">Grievence</a>
+                    <a href="#">EPR Compllance</a>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3 class="to4 border">Social Media</h3>
+                <div class="text">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Youtube</a>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3 class="to5">Mail Us</h3>
+                <div class="text">
+                    <a href="#">Flipkart Internet Private Ltd,</a>
+                    <a href="#">Buildings Alyssa,Begonia &</a>
+                    <a href="#">Clove Embassy Tech Village</a>
+                    <a href="#">Outer Ring Road Devarabbensanahalli Village</a>
+                    <a href="#">Bengluru,560103,</a>
+                    <a href="#">Karnataka,India </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="bot">
+        <div class="beco">
+            <span class="kaka">
+                <i class="fa-solid fa-cart-shopping"></i>
+
+            </span>
+            <a href="#">Become a seller</a>
+        </div>
+        <div class="beco">
+            <span class="kaka">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </span>
+            <a href="#">Advertise</a>
+        </div>
+        <div class="beco">
+            <span class="kaka">
+                <i class="fa-solid fa-gift"></i>
+
+            </span>
+            <a href="#">Gift Cards</a>
+        </div>
+        <div class="beco">
+            <span class="kaka">
+                <i class="fa-regular fa-circle-question"></i>
+
+            </span>
+            <a href="#">Help Center</a>
+        </div>
+        <div class="beco">
+            <span class="kaka">
+                <i class="fa-solid fa-earth-americas"></i>
+
+            </span>
+            <a href="#">2007-2023 Flipkart.Com</a>
+        </div>
+
+        <div class="news">
+            <img class="kaka"
+                src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg"
+                alt="">
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+</body>
+
+</html>
